@@ -22,7 +22,6 @@ namespace Minesweeper.Tests.Game
         {
             var player = new Player(0, 0, 3);
 
-             
             bool moved = player.Move(1, 0, 5, 5); 
 
             Assert.True(moved);
